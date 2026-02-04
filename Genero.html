@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sab{
+            text-align: center;
+            font-family: 'Times New Roman', Times, red serif;
+        }
+        #abc{
+
+            text-align: center;
+            background-color: rgb(255, 0, 0);
+            color: yellow;
+            font-family: 'Lucida Handwriting', cursive;
+        }
+        #radha{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+            
+        }
+        .container{
+            position: relative;
+            display:inline-block;
+        }
+        .abcd{
+            display: block;
+        }
+        .ancde{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 150px;
+        }
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            color: white;
+            font-weight: bold;}
+        #registrationForm{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 10px;
+            background-size: 80px;
+            background-color:skyblue ;
+        }
+        </style>
+</head>
+<body>
+    <h2 id="sab">ABES Engineering College,Ghaziabad</h2>
+    <div id="abc">
+    <h1>Genero</h1>
+    </div>
+
+    <div class="container">
+    <img id="radha" src="silhouettes-concert-crowd-front-bright-stage-lights-confetti-colourful-background-high-lighted-places-people-holding-83284529.webp" height="500px" width="1000px" alt="Genero Image" class="abcd">
+    <img src="images.jpg" alt="Top Left Image" class="ancde">
+    <div class="top-left">Major Attraction</div>
+    <div id="registrationForm">
+    <form>
+        <h2>REGISTER NOW!</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number:</label><br>    
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+    </div>
+</body>
+</html>
